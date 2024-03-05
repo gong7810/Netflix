@@ -4,6 +4,6 @@
 
 npm install react-bootstrap bootstrap
 npm install react-router-dom@6
-npm install @reduxjs/toolkit react-redux
-npm install redux-thunk
+npm install redux react-redux
+npm install redux-saga
 npm install --save redux-devtools-extension
