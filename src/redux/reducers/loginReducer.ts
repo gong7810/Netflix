@@ -4,7 +4,7 @@ const initialState = {
   authenticate: false as any,
 };
 
-function loginReducer(state = initialState, action: any) {
+export const loginReducer = (state = initialState, action: any) => {
   const { type, payload } = action;
   switch (type) {
     case "LOGIN":
@@ -17,6 +17,4 @@ function loginReducer(state = initialState, action: any) {
     default:
       return { ...state };
   }
-}
-
-export default loginReducer;
+};
